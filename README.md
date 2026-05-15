@@ -12,8 +12,12 @@ github repo for the *step-up* project.
 ## Structure
 
 /scripts - installation scripts 
+
 /client - frontend; what the user sees 
+
 /server - backend; handles requests
+
 /database - DB scripts
+
 /docs - Documentation 
 
