@@ -21,11 +21,17 @@ github repo for the *step-up* project.
 
 /docs - Documentation 
 
+## Setting up git
+
+'git config --global --add --bool push.autoSetupRemote true'
+
 ## General Workflow
 
-1. git pull 로 최신버전 업데이트
-2. git branch '추가할 기능` 으로 브랜칭 (매우 중요!)
+1. `git pull` 로 최신버전 업데이트
+2. `git checkout -b '브랜치 이름'` 으로 브랜칭 및 전환 (매우 중요!!)
 3. 할일 하기
-4. git add '변경/추가파일' 
-5. git commit -m '변경사항 설명' 또는 git commit 후 에디터에서 작성
-6. git push --set-upstream origin add
+4. `git add .`
+5. `git commit -m '변경사항 설명'` 또는 `git commit` 후 변경사항 에디터에서 작성
+6. `git pull origin main`
+7. git push 
+8. github 접속해서 pull request 요청
