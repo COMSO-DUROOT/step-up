@@ -8,7 +8,7 @@ github repo for the *step-up* project.
 1. 절대 `main` 브랜치에 commit 하지 말것 
 2. commit 시 변경사항을 명확하게 밝힐 것
 3. branch 이름은 `kebab-case` 로 지을 것 ex) `features/new-feature`
-4. 그 외 변수명, 함수명, 파일명 등의 작명법은 팀별로 통일할것
+4. 그 외 변수명, 함수명, 파일명 등의 작명법은 팀별로 통일할것 (린터 권장)
 
 
 ## Structure
